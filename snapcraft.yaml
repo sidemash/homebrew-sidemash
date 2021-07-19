@@ -1,0 +1,34 @@
+name: sidemash
+#version: git # By specifying git for the version, the current git tag or commit will be used as the version string. Versions carry no semantic meaning in snaps.
+version: '0.0.1-alpha1'
+summary: Command Line Interface to use Sidemash Cloud
+description: |
+  sidemash-cli is a command line program for creating,
+  updating, deleting stream, stream-square:
+  - Simple tasks should be easy.
+  - Performance trade offs should be exposed
+    in the CLI interface.
+  - Composition should not come at the
+    expense of performance.
+
+confinement: strict
+base: core18
+
+parts:
+  sidemash:
+    plugin: rust
+    source: https://github.com/sidemash/cli.git
+
+build-packages:
+  - pkg-config
+  - libreadline-dev
+  - libncurses5-dev
+  - libssl-dev
+
+architectures:
+  - build-on: s390x
+  - build-on: ppc64el
+  - build-on: arm64
+  - build-on: armhf
+  - build-on: amd64
+  - build-on: i386
