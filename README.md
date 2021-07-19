@@ -3,7 +3,7 @@
 ## Installation
 Windows | Mac | Linux
 --- | --- | ---
-```choco install sidemash-cli``` | ```brew install sidemash-cli``` | ```snap install sidemash-cli```
+```choco install sidemash``` | ```brew install sidemash``` | ```snap install sidemash```
 
 
 Once installed, you can use it under the name `sdm`.  like ```sdm -h```
