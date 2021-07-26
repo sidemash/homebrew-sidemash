@@ -1012,7 +1012,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "sidemash-cli"
+name = "sidemash"
 version = "0.1.0-alpha1"
 dependencies = [
  "anyhow",
