@@ -6,7 +6,7 @@ edition = "2018"
 license = "Apache-2.0"
 description = "Official SDK for Sidemash Cloud in CLI"
 homepage    = "https://developers.sidemash.com/docs/v1.0/cli"
-repository  = "https://github.com/sidemash/cli"
+repository  = "https://github.com/sidemash/homebrew-sidemash"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
